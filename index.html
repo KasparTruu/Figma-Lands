@@ -7,25 +7,24 @@
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<header class="aspect-[3.21] object-contain object-center w-[186px] overflow-hidden self-stretch shrink-0 max-w-full">
-  <img class="flex absolute bg-none" src="img/Rectangle 4.png  " />
-</header>
 
-<body class="text-[#252B42]">
+<body>
 
-  <nav class="relative">
+  <nav class=" relative">
     <img class="w-full" src="/img/Rectangle 9 (1).jpg" />
 
-
-
     <div class="flex items-center">
-      <div class="absolute text-xl text-blue-300 top-5 text-white gap-5 m-10">
+      <div class="text-xl text-blue-300 top-5 text-white gap-5 m-10">
         <a href="">Home</a>
         <a class="ml-5" href="">Product</a>
         <a class="ml-5" href="">Pricing</a>
         <a class="ml-5" href="">About</a>
         <a class="ml-5" href="">Contact</a>
         <a class="ml-5" href=""></a>
+      </div>
+
+      <div class="absolute text-xl text-blue-300 top-3 left-3  text-white gap-5 m-10 flex">
+        <img src="img/Rectangle 4.png  "/>
       </div>
 
       <div class="absolute text-xl text-blue-300 top-3 right-5 text-white gap-5 m-10 flex">
@@ -146,10 +145,8 @@
                       </span>
                     </div>
                     <div class="flex flex-col items-stretch w-[39%] ml-5 max-md:w-full max-md:ml-0">
-                      <span
-                        class="text-white text-xl leading-5 tracking-wide whitespace-nowrap items-stretch bg-blue-500 grow justify-center w-full px-10 py-5 rounded-[35px] max-md:mt-10 max-md:px-5">
-                        Subscribe
-                      </span>
+                      <a class="text-center text-white text-xl font-normal bg-[#2091F9] leading-tight tracking-tight py-5 px-4 rounded-3xl"
+          href="#">Subscribe</a>
                     </div>
                   </div>
                 </div>
@@ -315,6 +312,128 @@
       </div>
     </section>
   </section>
+  <section class="mt-36 mb-36 w-fit lg:w-full">
+    <div class="text-center">
+      <h1 class="text-4xl font-semibold">Contact Us</h1>
+      <p class="text-2xl mt-10">Most calendars are designed for Teams. Slate is designed for freelancers</p>
+    </div>
+
+    <div class="flex justify-center mt-10 items-center">
+      <section class="bg-white mt-10 w-96">
+        <div class="py-8 lg:py-16 p-10 mx-auto max-w-screen-md border rounded-2xl">
+            <h1 class="mb-16 text-2xl tracking-tight font-bold text-center">Contact Us</h1>
+            <form action="#" class="space-y-8">
+                <div>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Your name" required>
+                </div>
+                <div>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Your Email" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-full bg-[#2091F9] sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
+            </form>
+        </div>
+      </section>
+
+      <div class="flex-col items-center">
+        <div class="flex items-center">
+          <div class="flex-col items-center p-2">
+            <div class="flex justify-center">
+              <img src="/img/bx_bx-map.png" alt="">
+            </div>
+            <p class="w-72 text-center mt-2">6386 Spring St undefined Anchorage, 
+              Georgia 12473 United States</p>
+          </div>
+  
+          <div class="flex-col items-center p-2">
+            <div class="flex justify-center">
+              <img src="/img/ic_baseline-phone-android.png" alt="">
+            </div>
+            <p class="text-center mt-2">(843) 555-0130</p>
+          </div>
+  
+          <div class="flex-col items-center p-2">
+            <div class="flex justify-center">
+              <img src="/img/ant-design_mail-outlined.png" alt="">
+            </div>
+            <p class="text-center mt-2">willie.jennings@example.com</p>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-10">
+          <img src="img\@ map screen.png" alt="">
+        </div>
+
+        <div class="scale-90 mt-10">
+          <div class="flex gap-3 scale-90">
+            <img class="" src="img\social media blue.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-[#252B42] text-white p-20 w-fit lg:w-full">
+    <div class="flex justify-center">
+      <div class="flex flex-start gap-36">
+        <div>
+          <h1 class="font-semibold text-xl">Pages</h1>
+          <div class="font-light grid gap-3 mt-3">
+            <a href="">Home</a>
+            <a href="">Product</a>
+            <a href="">Pricing</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+  
+        <div class="flex-col">
+          <h1 class="font-semibold text-xl">Tomothy</h1>
+          <div class="font-light grid gap-3 mt-3">
+            <a href="">Eleanor Edwards</a>
+            <a href="">Ted Robertson</a>
+            <a href="">Annette Russell</a>
+            <a href="">Jennie McKinney</a>
+            <a href="">Gloria Richards</a>
+          </div>
+        </div>
+  
+        <div class="flex-col">
+          <h1 class="font-semibold text-xl">Jane Black</h1>
+          <div class="font-light grid gap-3 mt-3">
+            <a href="">Philip Jones</a>
+            <a href="">Product</a>
+            <a href="">Colleen Russell</a>
+            <a href="">Marvin Hawkins</a>
+            <a href="">Bruce Simmons</a>
+          </div>
+        </div>
+  
+        <div>
+          <div class="flex items-center">
+            <div>
+              <img src="img\bx_bx-map (1).png">
+            </div>
+            <p class="ml-2">7480 Mockingbird Hill undefined</p>
+          </div>
+  
+          <div class="flex items-center mt-5">
+            <img src="img\ic_baseline-phone-android (1).png">
+            <p class="ml-2">(843) 555-0130</p>
+          </div>
+  
+          <div class="mt-10">
+            <div class="flex gap-3">
+              <img src="/img/social media.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   
 
 
