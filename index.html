@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
-<body>
-
-  <nav class=" relative">
-    <img class="w-full" src="/img/Rectangle 9 (1).jpg" />
+<body class="text-[#252B42]">
+  <nav class="relative">
+    <img class="w-full" src="img\Rectangle 9 (1).jpg"/>
 
     <div class="flex items-center">
-      <div class="text-xl text-blue-300 top-5 text-white gap-5 m-10">
+      <div class="absolute text-xl text-blue-300 top-5 text-white gap-5 m-10">
         <a href="">Home</a>
         <a class="ml-5" href="">Product</a>
         <a class="ml-5" href="">Pricing</a>
@@ -23,72 +21,61 @@
         <a class="ml-5" href=""></a>
       </div>
 
-      <div class="absolute text-xl text-blue-300 top-3 left-3  text-white gap-5 m-10 flex">
-        <img src="img/Rectangle 4.png  "/>
-      </div>
-
       <div class="absolute text-xl text-blue-300 top-3 right-5 text-white gap-5 m-10 flex">
-        <a href=""><img src="img/social media.png" alt=""></a>
+        <a href=""><img src="/img/social media.png" alt=""></a>
       </div>
     </div>
 
     <div>
-      <h1 class="absolute text-5xl font-bold text-white text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        The best products start with Figma</h1>
-      <h1 class="absolute text-2xl text-white text-center mt-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Most
-        calendars are designed for teams. Slate is designed for freelancers</h1>
+      <h1 class="absolute text-5xl font-bold text-white text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">The best products start with Figma</h1>
+      <h1 class="absolute text-2xl text-white text-center mt-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Most calendars are designed for teams. Slate is designed for freelancers</h1>
       <div class="absolute text-2xl text-white text-center mt-36 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <a class="text-center text-white text-xl font-normal bg-[#2091F9] leading-tight tracking-tight py-2 px-4 rounded-3xl"
-          href="#">Try For Free</a>
+        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Try For Free</button>
       </div>
     </div>
   </nav>
 
   <section class="mt-52">
     <h1 class="text-5xl font-bold flex justify-center">Features</h1>
-    <p class="text-xl font-bold flex justify-center mt-5">Most calendars are designed for teams. Slate is designed for
-      freelancers</p>
+    <p class="text-xl font-bold flex justify-center mt-5">Most calendars are designed for teams. Slate is designed for freelancers</p>
 
     <div class="flex justify-center mt-20">
       <div class="flex-col items-center">
         <div class="flex justify-center">
-          <img class="mr-5" src="img/mdi_drawing.png" alt="">
+          <img class="mr-5" src="img\mdi_drawing.png" alt="">
         </div>
 
         <div class="mt-5">
           <h1 class="font-bold w-48 text-center">OpenType features Variable fonts</h1>
-          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your
-            financial goal.</p>
+          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
       </div>
 
       <div class="flex-col items-center">
         <div class="flex justify-center">
-          <img class="ml-5" src="img/mdi_draw.png" alt="">
+          <img class="ml-5" src="img\mdi_draw.png" alt="">
         </div>
 
         <div class="mt-5 ml-10">
           <h1 class="font-bold w-48 text-center">Design with real data</h1>
-          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your
-            financial goal.</p>
+          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
       </div>
 
       <div class="flex-col items-center">
         <div class="flex justify-center">
-          <img class="ml-5" src="img/mdi_brush.png" alt="">
+          <img class="ml-5" src="img\mdi_brush.png" alt="">
         </div>
 
         <div class="mt-5 ml-10">
           <h1 class="font-bold w-48 text-center">Fastest way to take action</h1>
-          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your
-            financial goal.</p>
+          <p class="w-52 text-center mt-2">Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
       </div>
     </div>
 
     <div class="flex justify-center mt-10">
-      <img src="img/screen.png" alt="">
+      <img src="img\@ video screen.png" alt="">
     </div>
   </section>
 
@@ -139,10 +126,8 @@
                 <div class="py-9 max-md:max-w-full">
                   <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                     <div class="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
-                      <span
-                        class="text-zinc-900 text-sm leading-4 tracking-normal whitespace-nowrap border bg-zinc-100 grow justify-center w-full my-auto pl-10 pr-16 py-5 rounded-[39px] border-solid border-gray-200 items-start max-md:mt-10 max-md:px-5">
-                        Your Email
-                      </span>
+                      <input  placeholder="Your Email" type="email" id="email" class="text-zinc-900 text-sm leading-4 tracking-normal whitespace-nowrap border bg-zinc-100 grow justify-center w-full my-auto pl-10 pr-16 py-5 rounded-[39px] border-solid border-gray-200 items-start max-md:mt-10 max-md:px-5" text="email">
+
                     </div>
                     <div class="flex flex-col items-stretch w-[39%] ml-5 max-md:w-full max-md:ml-0">
                       <a class="text-center text-white text-xl font-normal bg-[#2091F9] leading-tight tracking-tight py-5 px-4 rounded-3xl"
@@ -324,10 +309,10 @@
             <h1 class="mb-16 text-2xl tracking-tight font-bold text-center">Contact Us</h1>
             <form action="#" class="space-y-8">
                 <div>
-                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Your name" required>
+                    <input type="text" id="subject" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Your name" required>
                 </div>
                 <div>
-                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Your Email" required>
+                    <input type="email" id="email" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Your Email" required>
                 </div>
                 <div class="sm:col-span-2">
                     <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Your Message"></textarea>
@@ -433,6 +418,30 @@
       </div>
     </div>
   </section>
+
+<script>
+    function updateViewportMode() {
+        var viewport = document.getElementById('viewport');
+        if (window.innerWidth <= 768) {
+            // Switch to mobile mode for screens less than or equal to 768 pixels wide
+            viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
+        } else {
+            // Switch to desktop mode for larger screens
+            viewport.setAttribute('content', 'width=1200');
+        }
+    }
+
+    // Initial call to set the viewport mode based on the initial screen width
+              updateViewportMode();
+
+    // Listen for window resize events and debounce the update function
+    var debounceTimer;
+    window.addEventListener('resize', function () {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(updateViewportMode, 250);
+    });
+</script>
+
   
   
 

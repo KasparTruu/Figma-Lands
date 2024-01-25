@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile/Desktop Toggle</title>
+</head>
+
+<body>
+    <button onclick="toggleViewport()">Toggle Viewport</button>
+
+    <script>
+        function toggleViewport() {
+            const viewportMeta = document.querySelector('meta[name="viewport"]');
+            
+            if (viewportMeta) {
+                const currentContent = viewportMeta.getAttribute('content');
+                const isMobile = currentContent.includes('width=device-width');
+
+                if (isMobile) {
+                    // Switch to desktop mode
+                    viewportMeta.setAttribute('content', 'width=1024, initial-scale=1');
+                } else {
+                    // Switch to mobile mode
+                    viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
